@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".FragmentUtama">
+
+    <TextView
+        android:id="@+id/tx_view_utama"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:textSize="28dp"
+        android:text="Nama Afsyus Raka"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/gambar_utama"
+        android:layout_width="180dp"
+        android:layout_marginTop="80dp"
+        android:layout_height="220dp"
+        android:layout_below="@id/tx_view_utama"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/wallpaper_grub" />
+
+
+</RelativeLayout>
